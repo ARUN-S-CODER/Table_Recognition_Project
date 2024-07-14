@@ -99,6 +99,10 @@ We explored the following topics to build our solution:
 ## 📂 Repository Structure
       ├── Table_Recognition_without_using_LLM.py
       ├── Table_Recognition_using_LLM_model.py
+      ├── OUTPUT
+      |   ├── output1
+      |   ├── ........
+      |   ├── output8
       ├── Installation_Guide.md
       ├── Requirements.txt
       └── README.md
@@ -108,7 +112,9 @@ The output of the project includes:
 - Extracted table data from invoice images.
 - Visual representation of the knowledge graph showing entities and their relationships.
 
-The project demonstrates high accuracy in detecting table structures from images and successfully constructs meaningful knowledge graphs that can be used for further analysis and automation.
+The project demonstrates high accuracy in detecting table structures from images and successfully constructs meaningful knowledge graphs that can be used for further analysis and automation. 
+
+### 🔗 OUTPUT VIDEO: https://github.com/user-attachments/assets/e29330ff-07c2-4ef7-bed1-f33e4ff64516
 
 ## 🏁 Conclusion
 This project leverages advanced OCR techniques, graph theory, and machine learning models to extract and represent structured data from unstructured invoice images. The combination of these technologies provides a robust solution for automating data extraction and relationship mapping from complex document structures.
