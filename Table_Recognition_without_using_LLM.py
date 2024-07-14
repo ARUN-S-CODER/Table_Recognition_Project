@@ -39,8 +39,16 @@ def extract_relationships(doc):
 
 def process_image(image):
     
-    img = cv2.cvtColor(np.array(image), cv2.COLOR_BGR2GRAY)
-
+    img_array = np.array(image)
+    if len(img_array.shape) == 2 or img_array.shape[2] == 1:
+        img=img_array.astype(np.uint8)
+    elif img_array.shape[2] == 3:
+        img = cv2.cvtColor(img_array, cv2.COLOR_BGR2GRAY)
+    elif img_array.shape[2] == 4:
+        img = cv2.cvtColor(img_array, cv2.COLOR_BGRA2GRAY)
+    else:
+        raise ValueError("Unexpected number of channels in the input image.")
+        
     threshold_img = cv2.adaptiveThreshold(img, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 11, 2)
 
     horizontal_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (25, 1))
