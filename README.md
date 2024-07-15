@@ -114,7 +114,7 @@ The output of the project includes:
 
 The project demonstrates high accuracy in detecting table structures from images and successfully constructs meaningful knowledge graphs that can be used for further analysis and automation. 
 
-### 🔗 OUTPUT VIDEO: https://github.com/user-attachments/assets/e29330ff-07c2-4ef7-bed1-f33e4ff64516
+### 🎬 OUTPUT VIDEO: https://github.com/user-attachments/assets/e29330ff-07c2-4ef7-bed1-f33e4ff64516
 
 ## 🏁 Conclusion
 This project leverages advanced OCR techniques, graph theory, and machine learning models to extract and represent structured data from unstructured invoice images. The combination of these technologies provides a robust solution for automating data extraction and relationship mapping from complex document structures.
