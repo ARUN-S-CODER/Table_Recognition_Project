@@ -1,7 +1,7 @@
 # 📊 Table Extraction and Knowledge Graph Construction from Invoices
 
 ## 🚀 Problem Statement
-The goal of this project is to **automatically extract table structures from invoice images** and represent the extracted data in a structured knowledge graph format. This involves detecting and interpreting table data from images using **OCR (Optical Character Recognition)** and constructing meaningful relationships between the extracted entities using graph theory.
+ &emsp; &emsp;  &emsp; &emsp; The goal of this project is to **automatically extract table structures from invoice images** and represent the extracted data in a structured knowledge graph format. This involves detecting and interpreting table data from images using **OCR (Optical Character Recognition)** and constructing meaningful relationships between the extracted entities using graph theory.
 
 ## 📚 Table of Contents
 - [Problem Statement](#-problem-statement)
@@ -18,12 +18,12 @@ The goal of this project is to **automatically extract table structures from inv
 - [Conclusion](#-conclusion)
 
 ## 📖 Research Topics
-We explored the following topics to build our solution:
- 1. **Graph Neural Network**
- 2. **OCR Detection**
- 3. **Table Transformer Pre-trained Model**
- 4. **Paddle OCR**
- 5. **Neo4j Data Model**
+ &emsp; &emsp; We explored the following topics to build our solution:<br>
+ &emsp; &emsp; &emsp; &emsp; 1. **Graph Neural Network** <br>
+ &emsp; &emsp; &emsp; &emsp; 2. **OCR Detection**<br>
+ &emsp; &emsp; &emsp; &emsp; 3. **Table Transformer Pre-trained Model**<br>
+ &emsp; &emsp; &emsp; &emsp; 4. **Paddle OCR**<br>
+ &emsp; &emsp; &emsp; &emsp; 5. **Neo4j Data Model**<br>
 
 ## 🔗 References
 ### GitHub Repositories
