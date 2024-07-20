@@ -3,7 +3,6 @@ opencv-python
 numpy
 pillow
 pytesseract
-re
 spacy
 en_core_web_sm
 networkx
