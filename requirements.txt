@@ -1,5 +1,6 @@
 streamlit
 opencv-python
+json
 numpy
 pillow
 pytesseract
