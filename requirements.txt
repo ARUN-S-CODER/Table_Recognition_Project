@@ -4,7 +4,6 @@ numpy
 pillow
 pytesseract
 spacy
-en_core_web_sm
 networkx
 matplotlib
 google-generativeai
