@@ -141,7 +141,7 @@ def extract_relationships_gemini(text):
 
 
 
-    model = genai.GenerativeModel('gemini-1.0-pro-latest')
+    model = genai.GenerativeModel('gemini-1.5-pro')
     prompt = f"Extract entities and relationships from the following text:\n{text}\n\nProvide the output in the format: entities and relationships.\n\nExamples:\n\n{examples[0]['input']}\n\nOutput:\nEntities:\n{examples[0]['output']['entities']}\n\nRelationships:\n{examples[0]['output']['relationships']}\n\n"
     response = model.generate_content(prompt)
 
